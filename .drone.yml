@@ -2,12 +2,13 @@ kind: pipeline
 type: docker
 name: default
 
+steps:
 - name: hello
   image: python
   commands:
   - python ./hello.py
   
-  - name: Dasha
+- name: Dasha
   image: python
   commands:
   - python ./Dasha.py
@@ -17,12 +18,12 @@ name: default
   commands:
   - python ./world.py
   
-  - name: alex
+- name: alex
   image: python
   commands:
   - python ./alex.py
   
-  - name: Pavlo
+- name: Pavlo
   image: python
   commands:
   - python ./Pavlo.py
