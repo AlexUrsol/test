@@ -6,3 +6,23 @@ name: default
   image: python
   commands:
   - python ./hello.py
+  
+  - name: Dasha
+  image: python
+  commands:
+  - python ./Dasha.py
+
+- name: world
+  image: python
+  commands:
+  - python ./world.py
+  
+  - name: alex
+  image: python
+  commands:
+  - python ./alex.py
+  
+  - name: Pavlo
+  image: python
+  commands:
+  - python ./Pavlo.py
